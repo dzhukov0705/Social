@@ -1,0 +1,27 @@
+//
+//  SocialDining-Prefix.pch
+//  SocialDining
+//
+//  Created by Emil Janiak on 03/04/16.
+//  Copyright © 2016 emil. All rights reserved.
+//
+
+#ifndef SocialDining_Prefix_pch
+#define SocialDining_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SocialDining_Prefix_pch */
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppConstant.h"
+#import "DataStore.h"
+#import "MBProgressHUD.h"
+#import "Utils.h"
+
+#endif
